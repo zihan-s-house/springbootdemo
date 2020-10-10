@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=http://www.thymeleaf.org>
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="css/test.css">
+    <script src="js/test.js"></script>
+</head>
+<body>
+<div align="center">
+<h1>index in templates</h1>
+<h2 th:text="${uname}" id="h2"></h2>
+    <button onclick="test()">点击</button><br>
+    <img th:src="@{img/1.jpg}" style="max-width: 200px">
+    <div>
+        <h3>循环</h3>
+        <table border="1">
+            <tr th:each="str:${list}">
+                <td th:text="${str}"></td>
+
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

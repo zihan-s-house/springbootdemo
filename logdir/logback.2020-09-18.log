@@ -1,0 +1,34 @@
+16:08:18.376 logback [restartedMain] INFO  com.etc.SpringbootdemoApplication - Starting SpringbootdemoApplication on USER-20190614YY with PID 5772 (F:\IdeaProjects\springbootdemo\target\classes started by Administrator in F:\IdeaProjects\lagou)
+16:08:18.386 logback [restartedMain] DEBUG com.etc.SpringbootdemoApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+16:08:18.389 logback [restartedMain] INFO  com.etc.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+16:08:23.419 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+16:08:23.420 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:08:23.420 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+16:08:23.510 logback [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot] - Initializing Spring embedded WebApplicationContext
+16:08:23.511 logback [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4993 ms
+16:08:23.664 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:08:23.669 logback [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:08:23.693 logback [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 10 mappings in 'requestMappingHandlerMapping'
+16:08:23.730 logback [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+16:08:23.744 logback [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+16:08:23.759 logback [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:08:24.120 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:08:24.145 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '/springboot'
+16:08:24.160 logback [restartedMain] INFO  com.etc.SpringbootdemoApplication - Started SpringbootdemoApplication in 8.069 seconds (JVM running for 1315.038)
+16:08:24.164 logback [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+16:13:04.059 logback [main] INFO  c.etc.SpringbootdemoApplicationTests - Starting SpringbootdemoApplicationTests on USER-20190614YY with PID 4276 (started by Administrator in F:\IdeaProjects\springbootdemo)
+16:13:04.068 logback [main] DEBUG c.etc.SpringbootdemoApplicationTests - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+16:13:04.076 logback [main] INFO  c.etc.SpringbootdemoApplicationTests - No active profile set, falling back to default profiles: default
+16:13:04.546 logback [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1608bcbd
+16:13:28.628 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:13:29.040 logback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:13:29.764 logback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 10 mappings in 'requestMappingHandlerMapping'
+16:13:29.984 logback [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+16:13:30.797 logback [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+16:13:31.257 logback [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:13:34.084 logback [main] INFO  c.etc.SpringbootdemoApplicationTests - Started SpringbootdemoApplicationTests in 35.028 seconds (JVM running for 43.295)
+16:13:36.719 logback [main] INFO  c.etc.SpringbootdemoApplicationTests - test is running
+16:13:36.720 logback [main] INFO  c.etc.SpringbootdemoApplicationTests - Hello Jackson Yee!
+16:13:36.720 logback [main] INFO  c.etc.SpringbootdemoApplicationTests - test is end
+16:13:37.016 logback [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1608bcbd, started on Fri Sep 18 16:13:04 CST 2020
+16:13:37.027 logback [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
